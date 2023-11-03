@@ -33,7 +33,7 @@ export default function Footer() {
                 
             </footer>
             <div className='text-center bg-black text-white w-screen'>
-                    Developed by Arpit Bansal
+                    Developed by Arpit Bansal & Akanksha Bansal
                 </div>           
         </div>
     )
