@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Componants/Home';
 import Gallery from './Componants/Gallery';
-import Chairperson from './Componants/Desk';
+import Desk from './Componants/Desk';
 import Staff from './Componants/Staff';
 import { chairperson_data, director_data, principal_data } from './Componants/LeaderData';
 import Footer from './Componants/Footer';
@@ -17,9 +17,9 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route exact path="/gallery" element={<Gallery />} />
-          <Route exact path="/leadership/chairperson" element={<Chairperson {...chairperson_data}/>} />
-          <Route exact path="/leadership/director" element={<Chairperson {...director_data}/>} />
-          <Route exact path="/leadership/principal" element={<Chairperson {...principal_data}/>} />
+          <Route exact path="/leadership/chairperson" element={<Desk {...chairperson_data}/>} />
+          <Route exact path="/leadership/director" element={<Desk {...director_data}/>} />
+          <Route exact path="/leadership/principal" element={<Desk {...principal_data}/>} />
           <Route path="/staff" element={<Staff />} />
           <Route path="/courses" element={<AllCourses />} />
           <Route path='/courses/bpharma' element={<CourseDetail {...course_data.bpharma} />} />
