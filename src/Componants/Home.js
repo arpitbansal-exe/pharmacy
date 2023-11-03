@@ -7,7 +7,7 @@ export default function Home() {
     <Navbar />
     <div className="w-screen h-screen" >
     
-      <>Home Page</>
+      <div className="text-center"> Home Page</div>
     </div>
     </>
   )
