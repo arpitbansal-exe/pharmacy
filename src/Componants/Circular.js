@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-export default function AllCourses() {
+export default function Circular() {
   return (
 
     <div>
         <Navbar />
-        <div className='h-screen'> All Courses</div>
+        <h1 className='text-center text 6-xl'>Circular</h1>
     </div>
   )
 }

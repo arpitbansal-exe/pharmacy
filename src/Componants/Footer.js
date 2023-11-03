@@ -11,24 +11,21 @@ export default function Footer() {
                 </aside>
                 <nav>
                     <header className="footer-title">Contact us</header>
-                    <Link className="link link-hover">Phone : (+91) 8432417513</Link>
-                    <Link className="link link-hover">Email : info@hanscollegeofpharmacy.org</Link>
-                    <Link className="link link-hover">Marketing</Link>
-                    <Link className="link link-hover">Advertisement</Link>
+                    <Link className="link link-hover" to="tel:+918432417513">Phone : (+91) 8432417513</Link>
+                    <Link className="link link-hover" to="mailto:info@hanscollegeofpharmacy.org">Email : info@hanscollegeofpharmacy.org</Link>
                 </nav>
                 <nav>
-                    <header className="footer-title">Company</header>
-                    <Link className="link link-hover">About us</Link>
-                    <Link className="link link-hover">Contact</Link>
-                    <Link className="link link-hover">Jobs</Link>
-                    <Link className="link link-hover">Press kit</Link>
+                    <header className="footer-title">Sister Branches</header>
+                    <Link className="link link-hover">Home School Kotputli</Link>
+                    <Link className="link link-hover">Hans School Bansur</Link>
                 </nav>
-                <nav>
-                    <header className="footer-title">Legal</header>
-                    <Link className="link link-hover">Terms of use</Link>
-                    <Link className="link link-hover">Privacy policy</Link>
-                    <Link className="link link-hover">Cookie policy</Link>
-                </nav>
+                <div className="grid grid-flow-col gap-4">
+                    {/* <Link to="" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" width="24" height="24" alt='@gfg_mitadt'></img> </Link> */}
+                    {/* <Link to="" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" width="24" height="24" alt='geeksforgeeks-mitadt-student-chapter'></img> </Link> */}
+                    <Link to="" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" width="36" height="36" alt="wp community"></img> </Link>
+                    <Link to="" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="36" height="36" alt="wp community"></img> </Link>
+                    
+                </div>
 
                 
             </footer>

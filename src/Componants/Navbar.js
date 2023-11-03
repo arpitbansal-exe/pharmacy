@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
-        <div className='w-screen'>
-            <div className="navbar bg-base-100" >
+        <div className='w-screen '>
+            <div className="navbar bg-base-200" >
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -12,14 +12,6 @@ export default function Navbar() {
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link to="/">Home</Link></li>
-                            <li>
-                                <Link>Leadership</Link>
-                                <ul className="p-2">
-                                    <li className='z-10'><Link to="/leadership/chairperson">Chairperson Message</Link></li>
-                                    <li className='z-10'><Link to="/leadership/director">Director Desk</Link></li>
-                                    <li className='z-10'><Link to="/leadership/principal">Principal Desk</Link></li>
-                                </ul>
-                            </li>
                             <li><Link to="/staff">Staff</Link></li>
                             <li>
                                 <Link>Course</Link>
@@ -27,7 +19,7 @@ export default function Navbar() {
                                     <li><Link>D.Pharma</Link></li>
                                 </ul>
                             </li>
-                            <li><Link to="/downloads">Downloads</Link></li>
+                            <li><Link to="/circular">Circular</Link></li>
                             <li><Link to="/gallery">Gallary</Link></li>
                         </ul>
                     </div>
@@ -36,31 +28,21 @@ export default function Navbar() {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><Link to="/">Home </Link></li>
+                        <li><Link to="/staff">Staff</Link></li>
                         <li tabIndex={0}>
                             <details>
-                                <summary>Leadership</summary>
-                                <ul  className="p-2 z-10">
-                                    <li ><Link to="/leadership/chairperson">Chairperson Message</Link></li>
-                                    <li ><Link to="/leadership/director">Director Desk</Link></li>
-                                    <li ><Link to="/leadership/principal">Principal Desk</Link></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><Link to="/staff">Staff</Link></li>
-                        <li tabIndex={1}>
-                            <details>
-                                <summary ><Link to="/courses" >Course</Link></summary>
+                                <summary>Course</summary>
                                 <ul className="p-2 z-10">
                                     <li><Link to="/courses/bpharma">D.Pharma</Link></li>
                                 </ul>
                             </details>
                         </li>
-                        <li><Link to="/downloads">Downloads</Link></li>
+                        <li><Link to="/circular">Circular</Link></li>
                         <li><Link to="/gallery">Gallary</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    <Link className="btn">Contact Us</Link>
+                    
                 </div>
             </div>
         </div>
