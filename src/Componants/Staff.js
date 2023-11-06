@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { teachers } from './StaffData'
+import Footer from './Footer'
 
 
 
@@ -8,8 +9,7 @@ export default function Staff() {
   return (
     <div>
       <Navbar />
-      <h1 className="ml-10 my-20 text-3xl">List of Staff</h1>
-
+      <h1 className="ml-5 my-10 text-3xl md:text-5xl">List of Staff</h1>
       <div className="flex justify-center items-center">
 
 
@@ -36,6 +36,7 @@ export default function Staff() {
           </table>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

@@ -14,9 +14,9 @@ export default function Navbar() {
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/staff">Staff</Link></li>
                             <li>
-                                <Link>Course</Link>
+                                <>Course</>
                                 <ul className="p-2">
-                                    <li><Link>D.Pharma</Link></li>
+                                    <li><Link to="/bpharma">D.Pharma</Link></li>
                                 </ul>
                             </li>
                             <li><Link to="/circular">Circular</Link></li>
@@ -33,7 +33,7 @@ export default function Navbar() {
                             <details>
                                 <summary>Course</summary>
                                 <ul className="p-2 z-10">
-                                    <li><Link to="/courses/bpharma">D.Pharma</Link></li>
+                                    <li><Link to="/bpharma">D.Pharma</Link></li>
                                 </ul>
                             </details>
                         </li>
