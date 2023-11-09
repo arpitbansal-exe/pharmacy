@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
-        <div className='w-screen'>
+        <div className='w-screen mt-5'>
             <footer className="footer p-10 bg-base-200 text-base-content ">
                 <aside>
                     <img src="https://play-lh.googleusercontent.com/1UIHtp_5o5FHts6Z48zvfv0inu_cOUzeETbtNU_62ldu0RcNT4n2UUERe1h08LSFoA=w240-h480-rw" width="100px" alt="" />

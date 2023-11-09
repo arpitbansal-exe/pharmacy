@@ -1,25 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-
-let images = [
-  {
-    id: 1,
-    imgScr: "https://picsum.photos/200"
-  },
-  {
-    id: 2,
-    imgScr: "https://picsum.photos/300/200"
-  },
-  {
-    id: 3,
-    imgScr: "https://picsum.photos/200/300"
-  },
-  {
-    id: 4,
-    imgScr: "https://picsum.photos/200/300 "
-  },
-]
-
+import Footer from './Footer'
 
 export default function Gallery() {
   return (
@@ -83,6 +64,7 @@ export default function Gallery() {
           </div>
         </div>
       </div>
+      <Footer/>
 
     </div>
   )
