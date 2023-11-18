@@ -1,7 +1,8 @@
+import chairperson_img from '../Images/chairperson_img.jpg'
 export const chairperson_data={
     name:"Ashok Kumar Bansal",
     post:"Chairperson",
-    image:"https://webdashboard.kdtech.in/asset/pageimages/ashok_bansal_1645869340.jpg",
+    image:chairperson_img,
     message:"Lorem ipsum dolor sit amet,\n\n"+
     " Lectus magna fringilla urna porttitor rhoncus dolor. Sed augue\n"+
     " Lectus magna fringilla urna porttitor rhoncus dolor. Sed augue\n"+

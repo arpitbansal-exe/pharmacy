@@ -1,13 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
 import { Link } from 'react-router-dom'
 
 export default function ApplyNow() {
 
     return (
         <div>
-            <Navbar />
             <div className='text-6xl text-center m-10'>Hans College of Pharmacy</div>
             <div className='text-3xl text-center mb-10'>Admission Open 2023-24</div>
 
@@ -60,7 +57,6 @@ export default function ApplyNow() {
                 </div>
 
             </div>
-            <Footer />
         </div >
 
     )

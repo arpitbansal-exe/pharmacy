@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Navbar from '../Componants/Navbar'
 
 export default function Gallery() {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <div className='w-screen relative mb-5'>
         <div className="absolute inset-0 z-5 flex">
           <div className="absolute inset-0">
@@ -64,7 +63,6 @@ export default function Gallery() {
           </div>
         </div>
       </div>
-      <Footer/>
 
     </div>
   )

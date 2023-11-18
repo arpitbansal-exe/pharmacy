@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
-        <div className='w-screen '>
+        <div className='max-w-full'>
             <div className="navbar bg-base-200" >
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -13,8 +13,8 @@ export default function Navbar() {
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/staff">Staff</Link></li>
-                            <li>
-                                <>Course</>
+                            <li >
+                                <Link>Course</Link>
                                 <ul className="p-2">
                                     <li><Link to="/bpharma">D.Pharma</Link></li>
                                 </ul>

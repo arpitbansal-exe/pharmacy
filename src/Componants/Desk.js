@@ -9,7 +9,7 @@ export default function Desk(props) {
                     <div className="card-body">
                         <h1 className="card-title">{props.name}</h1>
                         <h2 className="card-title">{props.post}</h2>
-                        <p className='whitespace-pre-line text-left text-2xl'>{props.message}</p>
+                        <p className='whitespace-pre-line text-left text-xl md:text-2xl'>{props.message}</p>
                     </div>
                 </div>
             </div>

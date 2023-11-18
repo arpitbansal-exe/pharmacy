@@ -1,17 +1,16 @@
 import React from 'react'
-import Navbar from './Navbar'
 import { Link } from 'react-router-dom'
-import { circularsData } from './CircularData'
-import Footer from './Footer'
+import { circularsData } from '../Componants/CircularData'
+import Navbar from '../Componants/Navbar'
 
 export default function Circular() {
   return (
 
-    <div>
+    <div className='md:mb-96'>
       <Navbar />
       <h1 className='text-center text-3xl font-semibold md:text-6xl my-3'>Latest Circulars</h1>
 
-      <div className='mb-20'>
+      <div className=' grid grid-cols-1 md:grid-cols-4 gap-4 mb-20'>
       {circularsData.map((circular) => (
         <div key={circular.id} class="max-w-sm m-1 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{circular.heading}</h5>
@@ -26,8 +25,6 @@ export default function Circular() {
 
       ))}
       </div>
-
-      <Footer/>
     </div>
     
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from '../Componants/Navbar'
 
 export default function CourseDetail(props) {
   return (
@@ -14,8 +14,6 @@ export default function CourseDetail(props) {
           <h1>Course Description: {props.Course_description}</h1>
 
         </div>
-
-
     </div>
     
   )
