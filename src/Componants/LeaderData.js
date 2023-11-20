@@ -3,12 +3,8 @@ export const chairperson_data={
     name:"Ashok Kumar Bansal",
     post:"Chairperson",
     image:chairperson_img,
-    message:"Lorem ipsum dolor sit amet,\n\n"+
-    " Lectus magna fringilla urna porttitor rhoncus dolor. Sed augue\n"+
-    " Lectus magna fringilla urna porttitor rhoncus dolor. Sed augue\n"+
-    " Lectus magna fringilla urna porttitor rhoncus dolor. Sed augue\n"+
-    " Lectus magna fringilla urna porttitor rhoncus dolor. Sed augue\n "+
-    " Lectus magna fringilla urna porttitor rhoncus dolor. Sed augue"
+    message:"Dear Parents and Students,	\n\n"+
+    "The role of this institution is to provide the learning opportunities for the students and to provide quality education in the best possible way. The educational philosophy of Hans college of Pharmacy is give oppurtunity to its student to excel in their field. The College has an atmosphere of warmth, beauty and creativity. We identify, nurture and enrich giftedness in each child through continuous innovative learning to bring out the best in him/her. We treat our young pupils as individuals and aim for them to develop competence and resourcefulness, social conscience, moral courage and true zest for life."
 }
 export const director_data={
     name:"Pankaj Kumar Bansal",
