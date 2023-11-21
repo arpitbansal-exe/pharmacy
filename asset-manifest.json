@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/pharmacy/static/css/main.abad7bf3.css",
+    "main.js": "/pharmacy/static/js/main.337e2632.js",
+    "static/js/787.8f0665e3.chunk.js": "/pharmacy/static/js/787.8f0665e3.chunk.js",
+    "static/media/6.JPG": "/pharmacy/static/media/6.3e00a24edad6da20e52d.JPG",
+    "static/media/5.JPG": "/pharmacy/static/media/5.5b912d794a64644683b0.JPG",
+    "static/media/10.JPG": "/pharmacy/static/media/10.dcf97ebf301f09c3fd59.JPG",
+    "static/media/3.JPG": "/pharmacy/static/media/3.dcf97ebf301f09c3fd59.JPG",
+    "static/media/7.JPG": "/pharmacy/static/media/7.16abe592bb33e0e17e93.JPG",
+    "static/media/4.JPG": "/pharmacy/static/media/4.ae1ebc43641283094d9b.JPG",
+    "static/media/9.JPG": "/pharmacy/static/media/9.4b8e03b0d74aeda966b4.JPG",
+    "static/media/12.JPG": "/pharmacy/static/media/12.2ab53f15ca3c8ec115e0.JPG",
+    "static/media/11.JPG": "/pharmacy/static/media/11.ad88db58164bda041f57.JPG",
+    "static/media/1.JPG": "/pharmacy/static/media/1.0757de38c29fc4b1aada.JPG",
+    "static/media/2.JPG": "/pharmacy/static/media/2.c8703d4f3ce8bdb8e6ae.JPG",
+    "static/media/8.JPG": "/pharmacy/static/media/8.7bdc6004fc59d8ef63ca.JPG",
+    "static/media/home_img.png": "/pharmacy/static/media/home_img.a7fa0430738f0469aa3d.png",
+    "static/media/chairperson_img.jpg": "/pharmacy/static/media/chairperson_img.05bc9a70ab7ee5cbc213.jpg",
+    "index.html": "/pharmacy/index.html",
+    "main.abad7bf3.css.map": "/pharmacy/static/css/main.abad7bf3.css.map",
+    "main.337e2632.js.map": "/pharmacy/static/js/main.337e2632.js.map",
+    "787.8f0665e3.chunk.js.map": "/pharmacy/static/js/787.8f0665e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abad7bf3.css",
+    "static/js/main.337e2632.js"
+  ]
+}
