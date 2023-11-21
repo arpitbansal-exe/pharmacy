@@ -6,20 +6,18 @@ import Navbar from '../Componants/Navbar'
 
 export default function Staff() {
   return (
-    <div className='h-screen'>
+    <div>
       <Navbar/>
-      <h1 className="ml-5 my-10 text-3xl md:text-5xl">List of Staff</h1>
+      <h1 className="ml-3 md:ml-16 my-10 text-4xl md:text-5xl font-bold ">List of Faculty</h1>
       <div className="flex justify-center items-center">
-
-
         <div className="overflow-x-auto mb-20">
-          <table className="table w-[60vw] text-center">
-            <thead>
-              <tr>
+          <table className="table w-[60vw] text-center md:text-2xl">
+            <thead className='text-2xl '>
+              <tr className='font-bold'>
                 <th>Sr no.</th>
                 <th>Name</th>
-                <th>Post</th>
-                <th>Education</th>
+                <th>Subject</th>
+                <th>Designation</th>
               </tr>
             </thead>
             <tbody>
@@ -27,8 +25,8 @@ export default function Staff() {
                 <tr key={index} className="hover">
                   <td>{index + 1}</td>
                   <td>{teacher.name}</td>
-                  <td>{teacher.post}</td>
-                  <td>{teacher.education}</td>
+                  <td>{teacher.subject}</td>
+                  <td>{teacher.designation}</td>
                 </tr>
               ))}
             </tbody>

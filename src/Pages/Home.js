@@ -1,6 +1,5 @@
 import React from 'react'
-import Desk from '../Componants/Desk'
-import { chairperson_data } from '../Componants/LeaderData'
+import { chairperson_data, principal_data } from '../Componants/LeaderData'
 import { Link } from 'react-router-dom'
 import Navbar from '../Componants/Navbar'
 import home_img from '../Images/home_img.png'
@@ -22,9 +21,32 @@ export default function Home() {
       </div>
 
 
-      <div className="max-w-full mt-5" >
-        <Desk {...chairperson_data} />
+      <div className="flex justify-center items-center z-0 md:mx-36 mx-3 my-5">
+        <div className="card card-compact w-86  bg-base-200  shadow-2xl md:card-side ">
+          <figure className="w-full object-fill"><img src={chairperson_data.image} alt={chairperson_data.name} /></figure>
+          <div className="card-body">
+            <h1 className="card-title">{chairperson_data.name}</h1>
+            <h2 className="card-title">{chairperson_data.post}</h2>
+            <p className='whitespace-pre-line text-left text-xl md:text-2xl'>{chairperson_data.message}</p>
+          </div>
+        </div>
       </div>
+
+
+      <div className="flex justify-center items-center z-0 md:mx-36 mx-3  mt-16 mb-5">
+        <div className="card card-compact w-86  bg-base-200 shadow-2xl md:card-side ">
+          <div className="card-body">
+            <h1 className="card-title">{principal_data.name}</h1>
+            <h2 className="card-title">{principal_data.post}</h2>
+            <p className='whitespace-pre-line text-left text-xl md:text-2xl'>{principal_data.message}</p>
+
+          </div>
+          <figure className="w-full object-fill"><img src={principal_data.image} alt={principal_data.name} /></figure>
+        </div>
+      </div>
+
+
+
     </div>
   )
 }

@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Navbar from '../Componants/Navbar'
 
 export default function ApplyNow() {
 
     return (
         <div>
+            <Navbar/>
             <div className='text-6xl text-center m-10'>Hans College of Pharmacy</div>
             <div className='text-3xl text-center mb-10'>Admission Open 2023-24</div>
 
@@ -49,7 +51,7 @@ export default function ApplyNow() {
                         <button className='btn btn-primary w-full' type="submit">Apply Now</button>
                     </form>
                     <hr className='h-px  bg-gray-200 border-0 dark:bg-gray-700' />
-                    <Link to="//api.whatsapp.com/send?phone=9602297611&text=I would like to take admission in Hans College of Pharmacy">
+                    <Link to="//api.whatsapp.com/send?phone=8432417513&text=I would like to take admission in Hans College of Pharmacy">
                         <button className='btn btn-primary mt-5'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" width="36" height="36" alt="" />
                             WhatsApp</button>
 

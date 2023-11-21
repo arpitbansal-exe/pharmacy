@@ -12,7 +12,7 @@ import Footer from './Componants/Footer';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/pharmacy">
         <Routes>
           
           <Route index element={<Home />} />

@@ -20,10 +20,8 @@ export default function Footer() {
                     <Link className="link link-hover">Hans School Bansur</Link>
                 </nav>
                 <div className="grid grid-flow-col gap-4">
-                    {/* <Link to="" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" width="24" height="24" alt='@gfg_mitadt'></img> </Link> */}
-                    {/* <Link to="" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" width="24" height="24" alt='geeksforgeeks-mitadt-student-chapter'></img> </Link> */}
-                    <Link to="" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" width="36" height="36" alt="wp community"></img> </Link>
-                    <Link to="" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="36" height="36" alt="wp community"></img> </Link>
+                    <Link to="//api.whatsapp.com/send?phone=8432417513&text=I would like to take admission in Hans College of Pharmacy" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" width="36" height="36" alt="wp community"></img> </Link>
+                    <Link to="" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" width="36" height="36" alt="wp community"></img> </Link>
                     
                 </div>
 

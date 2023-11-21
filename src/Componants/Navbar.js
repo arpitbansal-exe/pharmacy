@@ -12,7 +12,7 @@ export default function Navbar() {
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/staff">Staff</Link></li>
+                            <li><Link to="/staff">Faculty</Link></li>
                             <li >
                                 <Link>Course</Link>
                                 <ul className="p-2">
@@ -26,9 +26,9 @@ export default function Navbar() {
                     <Link className="btn btn-ghost normal-case" to="/" ><img className='' src="https://webdashboard.kdtech.in/asset/images/Hans%20Kotputli%20logo_1616828675_1646899441_1666170698.png" alt="Hans Pharmacy" style={{ height: '50px', width: 'auto' }} /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 font-semibold" >
                         <li><Link to="/">Home </Link></li>
-                        <li><Link to="/staff">Staff</Link></li>
+                        <li><Link to="/staff">Faculty</Link></li>
                         <li tabIndex={0}>
                             <details>
                                 <summary>Course</summary>

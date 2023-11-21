@@ -1,5 +1,18 @@
 import React from 'react'
 import Navbar from '../Componants/Navbar'
+import img1 from '../Images/Gallary/1.JPG'
+import img2 from '../Images/Gallary/2.JPG'
+import img3 from '../Images/Gallary/3.JPG'
+import img4 from '../Images/Gallary/4.JPG'
+import img5 from '../Images/Gallary/5.JPG'
+import img6 from '../Images/Gallary/6.JPG'
+import img7 from '../Images/Gallary/7.JPG'
+import img8 from '../Images/Gallary/8.JPG'
+import img9 from '../Images/Gallary/9.JPG'
+import img10 from '../Images/Gallary/10.JPG'
+import img11 from '../Images/Gallary/11.JPG'
+import img12 from '../Images/Gallary/12.JPG'
+
 
 export default function Gallery() {
   return (
@@ -17,49 +30,49 @@ export default function Gallery() {
       </div>
 
 
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mx-2">
         <div class="grid gap-4">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={img1} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={img2} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={img3} alt="" />
           </div>
         </div>
         <div class="grid gap-4">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={img4} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={img5} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="" />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="" />
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={img9} alt="" />
           </div>
         </div>
         <div class="grid gap-4">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={img7} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={img8} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={img6} alt="" />
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src={img10} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src={img11} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg" src={img12} alt="" />
           </div>
         </div>
       </div>
