@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pharmacy/static/css/main.68bda6ba.css",
-    "main.js": "/pharmacy/static/js/main.1079bd3e.js",
+    "main.css": "/pharmacy/static/css/main.72213911.css",
+    "main.js": "/pharmacy/static/js/main.69be991c.js",
     "static/js/787.8f0665e3.chunk.js": "/pharmacy/static/js/787.8f0665e3.chunk.js",
     "static/media/6.JPG": "/pharmacy/static/media/6.3e00a24edad6da20e52d.JPG",
     "static/media/5.JPG": "/pharmacy/static/media/5.5b912d794a64644683b0.JPG",
@@ -20,12 +20,12 @@
     "static/media/logo.png": "/pharmacy/static/media/logo.504f272e0faf0536ae8c.png",
     "static/media/s_logo.png": "/pharmacy/static/media/s_logo.f0c6e5776c924649c36a.png",
     "index.html": "/pharmacy/index.html",
-    "main.68bda6ba.css.map": "/pharmacy/static/css/main.68bda6ba.css.map",
-    "main.1079bd3e.js.map": "/pharmacy/static/js/main.1079bd3e.js.map",
+    "main.72213911.css.map": "/pharmacy/static/css/main.72213911.css.map",
+    "main.69be991c.js.map": "/pharmacy/static/js/main.69be991c.js.map",
     "787.8f0665e3.chunk.js.map": "/pharmacy/static/js/787.8f0665e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68bda6ba.css",
-    "static/js/main.1079bd3e.js"
+    "static/css/main.72213911.css",
+    "static/js/main.69be991c.js"
   ]
 }
