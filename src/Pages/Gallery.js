@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Componants/Navbar'
+import home_img from '../Images/home_img.png'
 import img1 from '../Images/Gallary/1.JPG'
 import img2 from '../Images/Gallary/2.JPG'
 import img3 from '../Images/Gallary/3.JPG'
@@ -14,19 +15,20 @@ import img11 from '../Images/Gallary/11.JPG'
 import img12 from '../Images/Gallary/12.JPG'
 
 
+
 export default function Gallery() {
   return (
     <div>
       <Navbar/>
-      <div className='w-screen relative mb-5'>
+      <div className='max-w-full relative mb-5'>
         <div className="absolute inset-0 z-5 flex">
           <div className="absolute inset-0">
-            <div className="mx-auto z-5 text-6xl font-bold self-center text-center mt-20">
+            <div className="mx-auto z-5 text-6xl font-bold self-center text-center mt-3 md:mt-20">
               Hans College of Pharmacy
             </div>
           </div>
         </div>
-        <img className='w-screen h-1/2' src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBLLQIFMYA80r_ZPy7w17LSXnWRwlT8PUzNIUJ4eR1e97yV7e07PYtzHu_PGjuIALMGPcFooCFBbkVyBh6wyWP-DvuD=s1600" alt="" />
+        <img className='w-full h-1/2' src={home_img} alt="" />
       </div>
 
 

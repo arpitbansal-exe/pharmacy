@@ -1,6 +1,5 @@
 import React from 'react'
 import { chairperson_data, principal_data } from '../Componants/LeaderData'
-import { Link } from 'react-router-dom'
 import Navbar from '../Componants/Navbar'
 import home_img from '../Images/home_img.png'
 
@@ -14,7 +13,6 @@ export default function Home() {
             <div className="mx-auto z-5 text-6xl font-bold self-center text-center mt-3 md:mt-20">
               Hans College of Pharmacy
             </div>
-            <Link to="/applynow" className="z-7 btn absolute bottom-5 right-3 md:right-10 md:bottom-10 md:text-3xl  bg-red-500" >Admission Open</Link>
           </div>
         </div>
         <img className='w-full h-1/2' src={home_img} alt="" />

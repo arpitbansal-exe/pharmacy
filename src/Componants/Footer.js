@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import s_logo from '../Images/s_logo.png'
 
 export default function Footer() {
     return (
         <div className=' mt-5'>
             <footer className="footer p-10 bg-base-200 text-base-content ">
                 <aside>
-                    <img src="https://play-lh.googleusercontent.com/1UIHtp_5o5FHts6Z48zvfv0inu_cOUzeETbtNU_62ldu0RcNT4n2UUERe1h08LSFoA=w240-h480-rw" width="100px" alt="" />
+                    <img src={s_logo} width="100px" alt="" />
                     <p>Hans Group of Education<br />Developing Students</p>
                 </aside>
                 <nav>

@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Navbar from '../Componants/Navbar'
 export default function NoPage() {
   return (
-    <div>NoPage</div>
+    <div>
+      <Navbar/>
+      NoPage</div>
   )
 }

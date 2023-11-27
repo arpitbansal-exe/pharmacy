@@ -8,8 +8,10 @@ export default function Staff() {
   return (
     <div>
       <Navbar/>
-      <h1 className="ml-3 md:ml-16 my-10 text-4xl md:text-5xl font-bold ">List of Faculty</h1>
-      <div className="flex justify-center items-center">
+      <div className="text-center my-10 text-4xl md:text-5xl font-bold ">
+        List of Faculty
+        </div>
+      <div className="flex justify-center items-center max-w-full">
         <div className="overflow-x-auto mb-20">
           <table className="table w-[60vw] text-center md:text-2xl">
             <thead className='text-2xl '>

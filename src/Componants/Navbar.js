@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import logo from '../Images/logo.png'
+import s_logo from '../Images/s_logo.png'
 export default function Navbar() {
     return (
         <div className='max-w-full'>
@@ -23,7 +24,8 @@ export default function Navbar() {
                             <li><Link to="/gallery">Gallary</Link></li>
                         </ul>
                     </div>
-                    <Link className="btn btn-ghost normal-case" to="/" ><img className='' src="https://webdashboard.kdtech.in/asset/images/Hans%20Kotputli%20logo_1616828675_1646899441_1666170698.png" alt="Hans Pharmacy" style={{ height: '50px', width: 'auto' }} /></Link>
+                    <Link className='btn btn-ghost normal-case lg:hidden' to="/"><img className='' src={s_logo} alt="Hans Pharmacy" style={{ height: '50px', width: 'auto' }} /></Link>
+                    <Link className="btn btn-ghost normal-case hidden lg:flex" to="/" ><img className='' src={logo} alt="Hans Pharmacy" style={{ height: '50px', width: 'auto' }} /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold" >
@@ -42,9 +44,11 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    
+                <div className='btn btn-primary'>
+                <Link to="/applynow" >Admission Open</Link>
                 </div>
-            </div>
-        </div>
+                </div>
+            </div >
+        </div >
     )
 }
