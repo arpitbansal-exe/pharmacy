@@ -24,7 +24,7 @@ export default function Navbar() {
                             <li><Link to="/gallery">Gallary</Link></li>
                         </ul>
                     </div>
-                    <Link className='btn btn-ghost normal-case lg:hidden' to="/"><img className='' src={s_logo} alt="Hans Pharmacy" style={{ height: '50px', width: 'auto' }} /></Link>
+                    <Link className='btn btn-ghost normal-case lg:hidden pl-0' to="/"><img className='' src={s_logo} alt="Hans Pharmacy" style={{ height: '50px', width: 'auto' }} /></Link>
                     <Link className="btn btn-ghost normal-case hidden lg:flex" to="/" ><img className='' src={logo} alt="Hans Pharmacy" style={{ height: '50px', width: 'auto' }} /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">

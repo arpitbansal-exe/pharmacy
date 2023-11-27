@@ -23,12 +23,12 @@ export default function Gallery() {
       <div className='max-w-full relative mb-5'>
         <div className="absolute inset-0 z-5 flex">
           <div className="absolute inset-0">
-            <div className="mx-auto z-5 text-6xl font-bold self-center text-center mt-3 md:mt-20">
+            <div className="mx-auto z-5 text-5xl md:text-6xl font-bold self-center text-center mt-3 md:mt-20">
               Hans College of Pharmacy
             </div>
           </div>
         </div>
-        <img className='w-full h-1/2' src={home_img} alt="" />
+        <img className='w-full h-[350px] md:h-[400px]' src={home_img} alt="" />
       </div>
 
 
