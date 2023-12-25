@@ -9,6 +9,7 @@ export const chairperson_data={
 export const principal_data={
     name:"Vimal Kumar Balodiya",
     post:"Principal, Hans College of Pharmacy, Paota",
-    image:"",
-    message:"Lorem ipsum dolor sit amet"
+    image:chairperson_img,
+    message:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptate ex exercitationem eveniet unde suscipit sapiente explicabo mollitia dolorum quis aut iure minus harum earum facere eligendi ut cum, error enim quo at deleniti velit. Voluptate maxime, sit, dignissimos nesciunt sunt minus voluptas a aliquam veniam laboriosam soluta iusto sapiente."
+    
 }

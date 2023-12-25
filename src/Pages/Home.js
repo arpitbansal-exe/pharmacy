@@ -22,7 +22,7 @@ export default function Home() {
       <div className="flex justify-center items-center z-0 md:mx-36 mx-3 my-5">
         <div className="card card-compact w-86  bg-base-200  shadow-2xl md:card-side ">
           <div className='hidden md:flex w-full'>
-          <figure className="w-full object-fill"><img className='rounded-l-lg' src={chairperson_data.image} alt={chairperson_data.name} /></figure>
+            <figure className="w-full object-fill"><img className='rounded-l-lg' src={chairperson_data.image} alt={chairperson_data.name} /></figure>
           </div>
           {/* <figure className="w-full object-fill hidden lg:block"><img src={chairperson_data.image} alt={chairperson_data.name} /></figure> */}
           <div className="card-body">
@@ -31,21 +31,20 @@ export default function Home() {
             <p className='whitespace-pre-line text-left text-xl md:text-2xl'>{chairperson_data.message}</p>
           </div>
           <div className='flex md:hidden w-full h-max-full'>
-          <figure className="w-full object-fill rounded-lg"><img className='rounded-b-lg' src={chairperson_data.image} alt={chairperson_data.name} /></figure>
+            <figure className="w-full object-fill rounded-lg"><img className='rounded-b-lg' src={chairperson_data.image} alt={chairperson_data.name} /></figure>
           </div>
         </div>
       </div>
 
 
       <div className="flex justify-center items-center z-0 md:mx-36 mx-3  mt-16 mb-5">
-        <div className="card card-compact w-86  bg-base-200 shadow-2xl md:card-side ">
+        <div className="card w-86 bg-base-100 md:card-side shadow-xl">
           <div className="card-body">
-            <h1 className="card-title">{principal_data.name}</h1>
+            <h2 className="card-title">{principal_data.name}</h2>
             <h2 className="card-title">{principal_data.post}</h2>
             <p className='whitespace-pre-line text-left text-xl md:text-2xl'>{principal_data.message}</p>
-
           </div>
-          <figure className="w-full object-fill"><img src={principal_data.image} alt={principal_data.name} /></figure>
+          <figure className='object-fill md:w-3/5'><img src={chairperson_data.image} alt={principal_data.name} /></figure>
         </div>
       </div>
 

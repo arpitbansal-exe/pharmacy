@@ -1,25 +1,26 @@
 import React from 'react'
 import Navbar from '../Componants/Navbar'
 import home_img from '../Images/home_img.png'
-import img1 from '../Images/Gallary/1.JPG'
-import img2 from '../Images/Gallary/2.JPG'
-import img3 from '../Images/Gallary/3.JPG'
-import img4 from '../Images/Gallary/4.JPG'
-import img5 from '../Images/Gallary/5.JPG'
-import img6 from '../Images/Gallary/6.JPG'
+import img1 from '../Images/Gallary/1.jpg'
+import img2 from '../Images/Gallary/2.jpg'
+import img3 from '../Images/Gallary/3.jpg'
+import img4 from '../Images/Gallary/4.jpg'
+import img5 from '../Images/Gallary/5.jpg'
+import img6 from '../Images/Gallary/6.jpg'
 import img7 from '../Images/Gallary/7.JPG'
-import img8 from '../Images/Gallary/8.JPG'
-import img9 from '../Images/Gallary/9.JPG'
-import img10 from '../Images/Gallary/10.JPG'
-import img11 from '../Images/Gallary/11.JPG'
-import img12 from '../Images/Gallary/12.JPG'
+import img8 from '../Images/Gallary/8.jpg'
+import img9 from '../Images/Gallary/9.jpg'
+import img10 from '../Images/Gallary/10.jpg'
+import img11 from '../Images/Gallary/11.jpg'
+import img12 from '../Images/Gallary/12.jpg'
+import LazyLoad from 'react-lazy-load';
 
 
 
 export default function Gallery() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className='max-w-full relative mb-5'>
         <div className="absolute inset-0 z-5 flex">
           <div className="absolute inset-0">
@@ -28,53 +29,80 @@ export default function Gallery() {
             </div>
           </div>
         </div>
+        <LazyLoad  className='w-full h-[350px] md:h-[400px]'>
         <img className='w-full h-[350px] md:h-[400px]' src={home_img} alt="" />
+        </LazyLoad>
+        {/* <img className='w-full h-[350px] md:h-[400px]' src={home_img} alt="" /> */}
       </div>
 
 
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mx-2">
         <div class="grid gap-4">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={img1} alt="" />
+            <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img1} alt='' />
+          </LazyLoad>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={img2} alt="" />
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img2} alt=''/>
+          </LazyLoad>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={img3} alt="" />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src={img4} alt="" />
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src={img5} alt="" />
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src={img9} alt="" />
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img3} alt='' />
+          </LazyLoad>
           </div>
         </div>
         <div class="grid gap-4">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={img7} alt="" />
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img4} alt='' />
+          </LazyLoad>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={img8} alt="" />
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img5} alt='' />
+          </LazyLoad>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={img6} alt="" />
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img6} alt='' />
+          </LazyLoad>
           </div>
         </div>
         <div class="grid gap-4">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={img10} alt="" />
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img7} alt='' />
+          </LazyLoad>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={img11} alt="" />
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img8} alt='' />
+          </LazyLoad>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src={img12} alt="" />
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img9} alt='' />
+          </LazyLoad>
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div>
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img10} alt='' />
+          </LazyLoad>
+          </div>
+          <div>
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img11} alt='' />
+          </LazyLoad>
+          </div>
+          <div>
+          <LazyLoad  className="h-auto max-w-full rounded-lg" >
+            <img src={img12} alt='' />
+          </LazyLoad>
           </div>
         </div>
       </div>
