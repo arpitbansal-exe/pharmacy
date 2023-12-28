@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../Images/logo.png'
-import s_logo from '../Images/s_logo.png'
+import logo from '../Assets/logo.png'
+import s_logo from '../Assets/s_logo.png'
 export default function Navbar() {
     return (
         <div className='max-w-full'>

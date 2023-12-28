@@ -1,4 +1,4 @@
-import chairperson_img from '../Images/chairperson_img.jpg'
+import chairperson_img from '../Assets/chairperson_img.jpg'
 export const chairperson_data={
     name:"Ashok Kumar Bansal",
     post:"Chairperson, Hans College of Pharmacy, Paota",

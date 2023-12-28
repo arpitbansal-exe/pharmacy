@@ -40,8 +40,8 @@ export default function ApplyNow() {
                                     </tr>
                                     <tr>
                                         <td><label htmlFor="class">Admission Class</label></td>
-                                        <td><select id="class" name="entry.1505883957" className='select select-bordered w-full ' required>
-                                            <option value="select" selected disabled>Select </option>
+                                        <td><select id="class" name="entry.1505883957" className='select select-bordered w-full ' defaultValue="D.Pharma" required>
+                                            <option value="select"  disabled>Select </option>
                                             <option value="D.Pharma">D.Pharma</option>
                                         </select></td>
                                     </tr>

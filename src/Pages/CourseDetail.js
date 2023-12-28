@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Componants/Navbar'
-import dpharma_img from '../Images/dpharma_img.png'
+import dpharma_img from '../Assets/dpharma_img.png'
 
 export default function CourseDetail(props) {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import { chairperson_data, principal_data } from '../Componants/LeaderData'
 import Navbar from '../Componants/Navbar'
-import home_img from '../Images/home_img.png'
+import home_img from '../Assets/home_img.png'
 
 export default function Home() {
   return (

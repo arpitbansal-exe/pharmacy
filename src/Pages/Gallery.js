@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from '../Componants/Navbar'
-import home_img from '../Images/home_img.png'
-import img1 from '../Images/Gallary/1.jpg'
-import img2 from '../Images/Gallary/2.jpg'
-import img3 from '../Images/Gallary/3.jpg'
-import img4 from '../Images/Gallary/4.jpg'
-import img5 from '../Images/Gallary/5.jpg'
-import img6 from '../Images/Gallary/6.jpg'
-import img7 from '../Images/Gallary/7.JPG'
-import img8 from '../Images/Gallary/8.jpg'
-import img9 from '../Images/Gallary/9.jpg'
-import img10 from '../Images/Gallary/10.jpg'
-import img11 from '../Images/Gallary/11.jpg'
-import img12 from '../Images/Gallary/12.jpg'
+import home_img from '../Assets/home_img.png'
+import img1 from '../Assets/Gallary/1.jpg'
+import img2 from '../Assets/Gallary/2.jpg'
+import img3 from '../Assets/Gallary/3.jpg'
+import img4 from '../Assets/Gallary/4.jpg'
+import img5 from '../Assets/Gallary/5.jpg'
+import img6 from '../Assets/Gallary/6.jpg'
+import img7 from '../Assets/Gallary/7.JPG'
+import img8 from '../Assets/Gallary/8.jpg'
+import img9 from '../Assets/Gallary/9.jpg'
+import img10 from '../Assets/Gallary/10.jpg'
+import img11 from '../Assets/Gallary/11.jpg'
+import img12 from '../Assets/Gallary/12.jpg'
 import LazyLoad from 'react-lazy-load';
 
 
@@ -36,8 +36,8 @@ export default function Gallery() {
       </div>
 
 
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mx-2">
-        <div class="grid gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-2">
+        <div className="grid gap-4">
           <div>
             <LazyLoad  className="h-auto max-w-full rounded-lg" >
             <img src={img1} alt='' />
@@ -50,11 +50,12 @@ export default function Gallery() {
           </div>
           <div>
           <LazyLoad  className="h-auto max-w-full rounded-lg" >
-            <img src={img3} alt='' />
+            <img src={img3} alt=''/>
           </LazyLoad>
+
           </div>
         </div>
-        <div class="grid gap-4">
+        <div className="grid gap-4">
           <div>
           <LazyLoad  className="h-auto max-w-full rounded-lg" >
             <img src={img4} alt='' />
@@ -71,7 +72,7 @@ export default function Gallery() {
           </LazyLoad>
           </div>
         </div>
-        <div class="grid gap-4">
+        <div className="grid gap-4">
           <div>
           <LazyLoad  className="h-auto max-w-full rounded-lg" >
             <img src={img7} alt='' />
@@ -88,7 +89,7 @@ export default function Gallery() {
           </LazyLoad>
           </div>
         </div>
-        <div class="grid gap-4">
+        <div className="grid gap-4">
           <div>
           <LazyLoad  className="h-auto max-w-full rounded-lg" >
             <img src={img10} alt='' />

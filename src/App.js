@@ -12,9 +12,8 @@ import Footer from './Componants/Footer';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/pharmacy">
+      <BrowserRouter>
         <Routes>
-          
           <Route index element={<Home />} />
           <Route exact path="/gallery" element={<Gallery />} />
           <Route path="/staff" element={<Staff />} />
