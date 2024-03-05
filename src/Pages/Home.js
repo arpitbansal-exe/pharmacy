@@ -24,7 +24,6 @@ export default function Home() {
           <div className='hidden md:flex w-full'>
             <figure className="w-full object-fill"><img className='rounded-l-lg' src={chairperson_data.image} alt={chairperson_data.name} /></figure>
           </div>
-          {/* <figure className="w-full object-fill hidden lg:block"><img src={chairperson_data.image} alt={chairperson_data.name} /></figure> */}
           <div className="card-body">
             <h1 className="card-title">{chairperson_data.name}</h1>
             <h2 className="card-title">{chairperson_data.post}</h2>
@@ -37,7 +36,7 @@ export default function Home() {
       </div>
 
 
-      <div className="flex justify-center items-center z-0 md:mx-36 mx-3  mt-16 mb-5">
+      {/* <div className="flex justify-center items-center z-0 md:mx-36 mx-3  mt-16 mb-5">
         <div className="card w-86 bg-base-100 md:card-side shadow-xl">
           <div className="card-body">
             <h2 className="card-title">{principal_data.name}</h2>
@@ -46,9 +45,7 @@ export default function Home() {
           </div>
           <figure className='object-fill md:w-3/5'><img src={chairperson_data.image} alt={principal_data.name} /></figure>
         </div>
-      </div>
-
-
+      </div> */}
 
     </div>
   )
