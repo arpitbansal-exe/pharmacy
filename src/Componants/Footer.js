@@ -13,7 +13,7 @@ export default function Footer() {
                 <nav>
                     <header className="footer-title">Contact us</header>
                     <Link className="link link-hover" to="tel:+918432417513">Phone : (+91) 8432417513</Link>
-                    <Link className="link link-hover" to="mailto:info@hanscollegeofpharmacy.org">Email : info@hanscollegeofpharmacy.org</Link>
+                    {/* <Link className="link link-hover" to="mailto:info@hanscollegeofpharmacy.org">Email : info@hanscollegeofpharmacy.org</Link> */}
                 </nav>
                 <nav>
                     <header className="footer-title">Sister Branches</header>

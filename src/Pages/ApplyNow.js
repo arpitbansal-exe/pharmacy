@@ -12,7 +12,7 @@ export default function ApplyNow() {
 
             <div className="flex justify-center items-center mb-20">
 
-                <div className="card  bg-base-200 md:w-1/2  shadow-2xl  p-1 md:p-10 ">
+                <div className="card  bg-base-300 md:w-1/2  shadow-2xl  p-1 md:p-10 ">
                     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd_5d421XUv8--sOjjWiKxiJ1bR2XBh-rcWmkEoGBedHDvbkw/formResponse">
                         <div className="overflow-x-auto">
                             <div className='text-center text-3xl font-semibold mb-10 mt-5 '>Apply Now</div>
@@ -54,7 +54,6 @@ export default function ApplyNow() {
                     <Link to="//api.whatsapp.com/send?phone=8432417513&text=I would like to take admission in Hans College of Pharmacy">
                         <button className='btn btn-primary mt-5'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" width="36" height="36" alt="" />
                             WhatsApp</button>
-
                     </Link>
                 </div>
 

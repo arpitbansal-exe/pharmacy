@@ -2,38 +2,34 @@ import React from 'react'
 import { teachers } from '../Componants/StaffData'
 import Navbar from '../Componants/Navbar'
 
-
-
 export default function Staff() {
   return (
-    <div>
+    <div className="w-full">
       <Navbar/>
-      <div className="text-center my-10 text-4xl md:text-5xl font-bold ">
+      <div className="text-center my-10 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
         List of Faculty
-        </div>
-      <div className="flex justify-center items-center max-w-full">
-        <div className="overflow-x-auto mb-20">
-          <table className="table w-[60vw] text-center md:text-2xl">
-            <thead className='text-2xl '>
-              <tr className='font-bold'>
-                <th>Sr no.</th>
-                <th>Name</th>
-                <th>Subject</th>
-                <th>Designation</th>
+      </div>
+      <div className="px-4 w-full overflow-x-auto flex items-center justify-center">
+        <table className="table w-full md:w-3/5  text-center text-xs sm:text-sm md:text-base lg:text-xl">
+          <thead>
+            <tr className='font-bold'>
+              <th className="px-2 py-3">Sr no.</th>
+              <th className="px-2 py-3">Name</th>
+              <th className="px-2 py-3">Designation</th>
+              <th className="px-2 py-3">Department</th>
+            </tr>
+          </thead>
+          <tbody> 
+            {teachers.map((teacher, index) => (
+              <tr key={index} className="hover">
+                <td className="px-2 py-3">{index + 1}</td>
+                <td className="px-2 py-3">{teacher.name}</td>
+                <td className="px-2 py-3">{teacher.designation}</td>
+                <td className="px-2 py-3">{teacher.department}</td>
               </tr>
-            </thead>
-            <tbody>
-              {teachers.map((teacher, index) => (
-                <tr key={index} className="hover">
-                  <td>{index + 1}</td>
-                  <td>{teacher.name}</td>
-                  <td>{teacher.subject}</td>
-                  <td>{teacher.designation}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   )
