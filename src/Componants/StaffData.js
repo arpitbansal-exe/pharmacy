@@ -1,42 +1,42 @@
 export const teachers = [
   {
-      name: "VIMAL PRAKASH BALODIYA",
-      designation: "Principal",
-      department: "Pharmaceutics",
-  },
-  {
       name: "MANOJ KUMAR SHARMA",
-      designation: "Assistant Professor",
+      designation: "Principal",
       department: "Pharmaceutical Quality Assurance",
-  },
-  {
-      name: "RAMAKANT",
-      designation: "Assistant Professor",
-      department: "Pharmaceutics",
   },
   {
       name: "YOGENDRA KUMAR KUMAWAT",
       designation: "Assistant Professor",
       department: "Pharmaceutics",
   },
+    {
+      name: "ASHUTOSH SHARMA",
+      designation: "Assistant Professor",
+      department: "Pharmacology",
+  },
   {
-      name: "RAJENDER PRASAD JAT",
-      designation: "Tutor/ Lecturer",
-      department: "Pharmacognosy",
+      name: "GOPAL VASHIST",
+      designation: "Assistant Professor",
+      department: "Pharmacology",
+  },
+  {
+      name: "RAMESH KUMAR",
+      designation: "Assistant Professor",
+      department: "Community Pharmacy and Management",
   },
   {
       name: "RAMKARAN SAINI",
       designation: "Tutor/ Lecturer",
       department: "Pharmaceutical Chemistry",
   },
-  {
-      name: "GIRIRAJ SAINI",
+    {
+      name: "SUBHASH CHAND YADAV",
       designation: "Tutor/ Lecturer",
-      department: "Pharmaceutical Quality Assurance",
+      department: "Pharmaceutics",
   },
-  {
-      name: "JITENDRA KUMAR",
+    {
+      name: "ARUN KUMAR",
       designation: "Tutor/ Lecturer",
-      department: "Pharmacology",
+      department: "Social Pharmcy",
   },
 ];
