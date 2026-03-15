@@ -5,47 +5,35 @@ import home_img from '../Assets/home_img.png'
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <Navbar />
-      <div className='max-w-full relative mb-5'>
-        <div className="absolute inset-0 z-5 flex">
-          <div className="absolute inset-0">
-            <div className="mx-auto z-5 text-5xl md:text-6xl font-bold self-center text-center mt-5 md:mt-20">
+      <div className='w-full relative mb-5'>
+        <div className="absolute inset-0 z-5 flex items-center justify-center">
+          <div className="text-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black drop-shadow-lg px-4">
               Hans College of Pharmacy
-            </div>
+            </h1>
           </div>
         </div>
-        <img className='w-full h-[350px] md:h-[400px]' src={home_img} alt="" />
+        <img className='w-full h-56 sm:h-80 md:h-96 lg:h-[400px] object-cover' src={home_img} alt="Hans College" />
       </div>
 
 
-      <div className="flex justify-center items-center z-0 md:mx-36 mx-3 my-5">
-        <div className="card card-compact w-86  bg-base-200  shadow-2xl md:card-side ">
-          <div className='hidden md:flex w-full'>
-            <figure className="w-full object-fill"><img className='rounded-l-lg' src={chairperson_data.image} alt={chairperson_data.name} /></figure>
+      <div className="flex justify-center items-center z-0 px-3 sm:px-6 md:px-12 lg:px-36 my-5">
+        <div className="card card-compact w-full bg-base-200 shadow-2xl md:card-side">
+          <div className='hidden md:flex w-full md:w-1/2'>
+            <figure className="w-full"><img className='rounded-l-lg w-full h-full object-cover' src={chairperson_data.image} alt={chairperson_data.name} /></figure>
           </div>
-          <div className="card-body">
-            <h1 className="card-title">{chairperson_data.name}</h1>
-            <h2 className="card-title">{chairperson_data.post}</h2>
-            <p className='whitespace-pre-line text-left text-xl md:text-2xl'>{chairperson_data.message}</p>
+          <div className="card-body gap-2 md:gap-3">
+            <h1 className="card-title text-lg sm:text-xl md:text-2xl">{chairperson_data.name}</h1>
+            <h2 className="text-base sm:text-lg md:text-xl font-semibold text-primary">{chairperson_data.post}</h2>
+            <p className='whitespace-pre-line text-left text-sm sm:text-base md:text-lg leading-relaxed'>{chairperson_data.message}</p>
           </div>
-          <div className='flex md:hidden w-full h-max-full'>
-            <figure className="w-full object-fill rounded-lg"><img className='rounded-b-lg' src={chairperson_data.image} alt={chairperson_data.name} /></figure>
+          <div className='flex md:hidden w-full'>
+            <figure className="w-full"><img className='rounded-b-lg w-full h-auto object-cover' src={chairperson_data.image} alt={chairperson_data.name} /></figure>
           </div>
         </div>
       </div>
-
-
-      {/* <div className="flex justify-center items-center z-0 md:mx-36 mx-3  mt-16 mb-5">
-        <div className="card w-86 bg-base-100 md:card-side shadow-xl">
-          <div className="card-body">
-            <h2 className="card-title">{principal_data.name}</h2>
-            <h2 className="card-title">{principal_data.post}</h2>
-            <p className='whitespace-pre-line text-left text-xl md:text-2xl'>{principal_data.message}</p>
-          </div>
-          <figure className='object-fill md:w-3/5'><img src={chairperson_data.image} alt={principal_data.name} /></figure>
-        </div>
-      </div> */}
 
     </div>
   )

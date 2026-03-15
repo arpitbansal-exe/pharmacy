@@ -11,17 +11,19 @@ import Footer from './Componants/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App min-h-screen flex flex-col">
       <BrowserRouter>
-        <Routes>
-          <Route index element={<Home />} />
-          <Route exact path="/gallery" element={<Gallery />} />
-          <Route path="/staff" element={<Staff />} />
-          <Route path='/bpharma' element={<CourseDetail {...course_data.bpharma} />} />
-          <Route path='/circular' element={<Circular/>} />
-          <Route path='/applynow' element={<ApplyNow/>} />
-          <Route path="*" element={<NoPage/>} />
-        </Routes>
+        <div className="flex-grow">
+          <Routes>
+            <Route index element={<Home />} />
+            <Route exact path="/gallery" element={<Gallery />} />
+            <Route path="/staff" element={<Staff />} />
+            <Route path='/bpharma' element={<CourseDetail {...course_data.bpharma} />} />
+            <Route path='/circular' element={<Circular/>} />
+            <Route path='/applynow' element={<ApplyNow/>} />
+            <Route path="*" element={<NoPage/>} />
+          </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
       
